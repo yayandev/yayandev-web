@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/me.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ✅ SEO -->
+    <title>YayanDev – Jasa Pembuatan Website & Aplikasi Profesional</title>
+    <meta
+      name="description"
+      content="YayanDev menyediakan jasa pembuatan website dan aplikasi modern, responsif, dan cepat. Layanan meliputi web perusahaan, e-commerce, aplikasi mobile, dan custom software."
+    />
+    <meta
+      name="keywords"
+      content="jasa pembuatan website, jasa web app, YayanDev, developer web Indonesia, pembuatan aplikasi mobile, React, Laravel"
+    />
+    <meta name="author" content="YayanDev" />
+
+    <!-- ✅ Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta
+      property="og:title"
+      content="YayanDev – Jasa Pembuatan Website & Aplikasi Profesional"
+    />
+    <meta
+      property="og:description"
+      content="Website & aplikasi modern, responsif, dan cepat. Solusi digital untuk bisnis Anda."
+    />
+    <meta property="og:image" content="https://yayandev.com/preview.jpg" />
+    <meta property="og:url" content="https://yayandev.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="YayanDev – Jasa Pembuatan Website & Aplikasi"
+    />
+    <meta
+      name="twitter:description"
+      content="Solusi web & app development untuk bisnis Anda."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0D0D2B",
+              secondary: "#1E1E3F",
+              accent: "#3671E9",
+              light: "#F0F0F0",
+              "gray-text": "#A0AEC0",
+            },
+            fontFamily: {
+              sans: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <script type="importmap">
+      {
+        "imports": {
+          "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0",
+          "react/": "https://aistudiocdn.com/react@^19.1.1/",
+          "react": "https://aistudiocdn.com/react@^19.1.1",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="bg-primary text-light">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
