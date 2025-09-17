@@ -42,8 +42,8 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
       <h3 className="text-xl font-bold text-white mt-2 mb-3">
         {project.title}
       </h3>
-      {project.description && (
-        <p className="text-gray-text text-sm">{project.description}</p>
+      {project.summary && (
+        <p className="text-gray-text text-sm">{project.summary}</p>
       )}
     </div>
   </div>
