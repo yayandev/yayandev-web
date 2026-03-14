@@ -90,7 +90,7 @@ const Portfolio: React.FC = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://api.yayandev.com/public/projects?limit=100"
+        "https://api.yanz.my.id/public/projects?limit=100"
       );
       if (!response.ok) throw new Error("Failed to fetch");
       const data = await response.json();
